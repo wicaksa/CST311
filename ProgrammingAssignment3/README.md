@@ -1,6 +1,7 @@
 # PROGRAMMING ASSIGNMENT 3 MULTITHREADING SERVER
 
-# PURPOSE The purpose of this assignment is to satisfy one of the stated outcomes in the syllabus:
+# PURPOSE 
+The purpose of this assignment is to satisfy one of the stated outcomes in the syllabus:
 You will write the program in Python where the interface to the TCP/IP application programming
 interface is similar to other C-family programming languages.**
 
