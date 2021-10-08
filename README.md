@@ -8,4 +8,4 @@ Module 4: Security in Computer Networks Part 1\
 Module 5: Network Layer: Data Plane\
 Module 6: Network Layer: Control Plane\
 Module 7: Link Layer and LANs\
-Module 8: Security In Computer NetworksPart 2\
+Module 8: Security In Computer NetworksPart 2
