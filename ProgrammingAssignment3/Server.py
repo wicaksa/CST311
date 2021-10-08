@@ -126,7 +126,7 @@ def listenToNewConnections(serverSocket):
 
 # This is the main function.
 def main():
-    global clientName,received
+    global clientName,receivedMessages
     
     # Initialize server socket to listen to connections
     serverSocket = getServerSocket()
