@@ -6,6 +6,7 @@
 # Title: Server.py
 # Programming Assignment 3 
 # CST311 CSUMB CS ONLINE FALL 2021
+# Run on Python3
 
 # Description: This TCP Server program that will connect to two different clients at the same time. 
 # The server will wait until both connections are established. Then it will receive a message 
@@ -28,27 +29,34 @@ from socket import *
 import threading
 
 global clientName, receivedMessages, threads, clientDict
-clientDict = {}
+clientDict = {} # 
 clientName = {}
 receivedMessages = []
 threads = []
 threadCount = 0
 
+# Function for the thread to run once it's created.
 def listenToClientMessages(clientSocket,addr):
     # If thread number is 1, call it client X
     serverMessage = ""
     clientLetter = ""
 
-    # Differentiate which client has connected (X or Y)
-    if threadCount == 1:
-        serverMessage = 'From Server: Client X Connected'
-        clientLetter = "X"
-        print('Accepted first connection, calling it client ' + clientLetter)
     # If thread number is 2, call it client Y
     if threadCount == 2: 
         serverMessage = 'From Server: Client Y Connected'
         clientLetter = "Y"
         print('Accepted second connection, calling it client ' + clientLetter)
+
+    
+    # Differentiate which client has connected (X or Y)
+    if threadCount == 1:
+        serverMessage = 'From Server: Client X Connected'
+        clientLetter = "X"
+        print('Accepted first connection, calling it client ' + clientLetter)
+
+    # Wait until both connections are made before letting the clients say something
+    while threadCount != 2:
+        continue
 
     # Tell the client that it connected to the server by sending it back a message.
     clientSocket.send(serverMessage.encode())
