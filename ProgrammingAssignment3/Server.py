@@ -1,7 +1,7 @@
 # Server.py
 
 '''
-# Group: Cheuk On-Yim, Matthew Stoney, Paola Torres, Wicaksa Munajat
+# Group: Cheuk On Yim, Matthew Stoney, Paola Torres, Wicaksa Munajat
 # Date: 10/07/2021
 # Title: Server.py
 # Programming Assignment 3 
