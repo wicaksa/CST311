@@ -1,4 +1,4 @@
-# PROGRAMMING ASSIGNMENT 3 MULTITHREADING SERVER
+# PROGRAMMING ASSIGNMENT 3 MULTITHREADED SERVER
 
 # PURPOSE 
 The purpose of this assignment is to write the program in Python where the interface to the TCP/IP application programming
