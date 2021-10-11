@@ -1,30 +1,24 @@
 # PROGRAMMING ASSIGNMENT 3 MULTITHREADING SERVER
 
 # PURPOSE 
-The purpose of this assignment is to satisfy one of the stated outcomes in the syllabus:
-You will write the program in Python where the interface to the TCP/IP application programming
-interface is similar to other C-family programming languages.**
+The purpose of this assignment is to write the program in Python where the interface to the TCP/IP application programming
+interface is similar to other C-family programming languages.
 
 # Client Code
 There are two clients, X and Y that will communicate with a server. 
-Clients X and Y will each open a TCP socket to your server and wait until the server establishes a 
+Clients X and Y will each open a TCP socket to the server and wait until the server establishes a 
 connection with both the clients. In the next step, one of the clients sends a message to your server 
-followed by the other client. The message contains the name of the client followed by a name 
-(e.g., “Client X: Alice”, “Client Y: Bob”). Later clients receive a message back from the server, 
-indicating which message arrived at the Server first and which arrived second. The clients should print 
-the message that they sent to the server, followed by the reply received from the server. The following 
-figures explain the problem.
+followed by the other client. The message contains the name of the client followed by a name. 
+Later clients receive a message back from the server, indicating which message arrived at the Server first 
+and which arrived second. The clients should print the message that they sent to the server, followed by the 
+reply received from the server.
 
 # Server Code
-The server will accept connections from both clients and after it has received messages from both X and Y, 
-the server will print their messages and then send an acknowledgment back to your clients. The acknowledgment 
+The server will accept connections from both clients. After it has received messages from both X and Y, 
+the server will print their messages and then send an acknowledgment back to the clients. The acknowledgment 
 from the server should contain the sequence in which the client messages were received (“X: Alice received
 before Y: Bob”, or “Y: Bob received before X: Alice”). After the server sends out this message it should output 
-a message saying - “Sent acknowledgment to both X and Y”. Your server can then terminate.
-The server sits in an infinite loop listening for incoming TCP packets. When a packet comes, the server simply 
-sends it back to the client. You can use the TCP server/client programs from the previous programming assignment 
-as templates to start and then modify it to build your
-programming assignment.
+a termination message before the server can then terminate.
 
 # Screenshots
 <img width="1115" alt="1  Server Started" src="https://user-images.githubusercontent.com/50036161/136730107-cee187f9-1ab5-4177-a5ed-359e2150cb48.png">
