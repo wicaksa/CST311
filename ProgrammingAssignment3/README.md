@@ -27,13 +27,13 @@ as templates to start and then modify it to build your
 programming assignment.
 
 # Screenshots
-<img width="1407" alt="1  Start Server" src="https://user-images.githubusercontent.com/50036161/136609884-6d9382cb-737e-4a06-958c-8c1ad9fde75b.png">
-<img width="1404" alt="2  Connect First Client" src="https://user-images.githubusercontent.com/50036161/136609912-f55562a0-17c6-4a41-b2b7-2db7010368e0.png">
-<img width="1397" alt="3  Connect Second Client" src="https://user-images.githubusercontent.com/50036161/136609914-43ac2fa9-819f-4438-a024-949c9d39842c.png">
-<img width="1407" alt="4  First Message Client X" src="https://user-images.githubusercontent.com/50036161/136609915-f09ba4e3-3d25-4af5-a6c2-fa4cdea44b84.png">
-<img width="1402" alt="5 Second Message From Client Y" src="https://user-images.githubusercontent.com/50036161/136609919-1ec882aa-e8c4-4bc3-abf7-66b9e50a37f0.png">
-<img width="1422" alt="6  FIRST MESSAGE CLIENT Y" src="https://user-images.githubusercontent.com/50036161/136609921-7f0f8435-bee2-45c1-8805-5a7c87ef92dc.png">
-<img width="1404" alt="7  SECOND MESSAGE CLIENT X" src="https://user-images.githubusercontent.com/50036161/136609923-7e2819fc-b995-4d36-8052-fafdb786b4ff.png">
+<img width="1115" alt="1  Server Started" src="https://user-images.githubusercontent.com/50036161/136730107-cee187f9-1ab5-4177-a5ed-359e2150cb48.png">
+<img width="1117" alt="2  First Client Connected" src="https://user-images.githubusercontent.com/50036161/136730109-b3456e84-1401-4c99-b744-ae70e5a792f7.png">
+<img width="1113" alt="3  Second Client Connected" src="https://user-images.githubusercontent.com/50036161/136730110-0d6c8745-0314-4732-9871-efb3131a757e.png">
+<img width="1112" alt="4  X Sends Message 1" src="https://user-images.githubusercontent.com/50036161/136730111-c83fa261-b340-4607-8019-18defc0a8ac6.png">
+<img width="1154" alt="5  Y Sends Message 2" src="https://user-images.githubusercontent.com/50036161/136730114-358b51c4-87e7-46b6-960d-62184e6901dc.png">
+<img width="1157" alt="6  Y Sends Message 1" src="https://user-images.githubusercontent.com/50036161/136730115-630bd897-5102-4c5c-9068-383573e6900f.png">
+<img width="1153" alt="7  X Sends Message 2" src="https://user-images.githubusercontent.com/50036161/136730117-c70edea5-7a0d-44f5-9592-05da80a23fb0.png">
 
 # Team Members
 Wicaksa Munajat : Team Lead, Programmer\
