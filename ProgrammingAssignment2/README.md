@@ -1,10 +1,10 @@
 # Programming Assignment 2: UDP Pinger
 
 # Program
-In this assignment, you will learn the basics of socket programming for UDP in Python. 
-You will learn how to send and receive datagram packets using UDP sockets and also, how to set 
-a proper socket timeout. Throughout the assignment, you will gain familiarity with a Ping application 
-and its usefulness in computing statistics such as packet loss rate.
+This programming assignment looks at the basics of socket programming for UDP in Python. 
+It goes in low detail on how to send and receive datagram packets using UDP sockets and also, how to set 
+a proper socket timeout. This assignment also looks at programming with a ping application 
+and how it is useful in computing statistics such as packet loss rate.
 
 # Client Code
 The client should send 10 pings to the server. Since this is transmitted using UDP, packets might be lost
