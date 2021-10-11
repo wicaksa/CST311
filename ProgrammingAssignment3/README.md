@@ -21,16 +21,21 @@ before Y: Bob”, or “Y: Bob received before X: Alice”). After the server se
 a termination message before the server can then terminate.
 
 # Screenshots
-## 1. Server is started and listening for a connection.
+
+### 1. Server is started and listening for a connection.
 <img width="1115" alt="1  Server Started" src="https://user-images.githubusercontent.com/50036161/136730107-cee187f9-1ab5-4177-a5ed-359e2150cb48.png">
-## 2. First client is connected to the server.
+
+### 2. First client is connected to the server.
 <img width="1117" alt="2  First Client Connected" src="https://user-images.githubusercontent.com/50036161/136730109-b3456e84-1401-4c99-b744-ae70e5a792f7.png">
-## 3. Second client is connected to the server.
+
+### 3. Second client is connected to the server.
 <img width="1113" alt="3  Second Client Connected" src="https://user-images.githubusercontent.com/50036161/136730110-0d6c8745-0314-4732-9871-efb3131a757e.png">
-## 4. Case 1: Client X sends the first message and Client Y sends the second message.
+
+### 4. Case 1: Client X sends the first message and Client Y sends the second message.
 <img width="1112" alt="4  X Sends Message 1" src="https://user-images.githubusercontent.com/50036161/136730111-c83fa261-b340-4607-8019-18defc0a8ac6.png">
 <img width="1154" alt="5  Y Sends Message 2" src="https://user-images.githubusercontent.com/50036161/136730114-358b51c4-87e7-46b6-960d-62184e6901dc.png">
-## 5. Case 2: Client Y sends the first message and Client X sends the second message.
+
+### 5. Case 2: Client Y sends the first message and Client X sends the second message.
 <img width="1157" alt="6  Y Sends Message 1" src="https://user-images.githubusercontent.com/50036161/136730115-630bd897-5102-4c5c-9068-383573e6900f.png">
 <img width="1153" alt="7  X Sends Message 2" src="https://user-images.githubusercontent.com/50036161/136730117-c70edea5-7a0d-44f5-9592-05da80a23fb0.png">
 
