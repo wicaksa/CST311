@@ -41,6 +41,6 @@ a termination message before the server can then terminate.
 
 # Team Members
 Wicaksa Munajat : Team Lead, Programmer\
-Cheuk On-Yim : Programmer\
+Cheuk On Yim : Programmer\
 Matt Stoney : Programmer\
 Paola Torres : Programmer
